@@ -1,3 +1,7 @@
+now, you will need npm to be installed on your system / project  
+i also use php (8.2) for the web server function and i have some php 
+snippets for functionality , so you will need that too.
+
 npm install -D tailwindcss postcss forms autoprefixer vite
 
 npx tailwindcss init -p

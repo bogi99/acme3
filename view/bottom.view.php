@@ -11,10 +11,9 @@
             <span class="float-right text-sm ">
                 <a class="" href="<?php echo listRandomizer::getList('./data/lists.linux.links'); ?>" target="_blank" >Linux</a> 
                 <a class="" href="<?php echo listRandomizer::getList('./data/lists.opensource.links'); ?>" target="_blank" >Open Source</a>
-                <a class="" href="#" >Free Software</a>
-                <a class="" href="#" >HTML5</a>
-                <a class="" href="#" >CSS3</a>
-                <a class="" href="#" >DESIGN</a>
+                <a class="" href="<?php echo listRandomizer::getList('./data/lists.freesoftware.links'); ?>" target="_blank" >Free Software</a>
+                <a class="" href="<?php echo listRandomizer::getList('./data/lists.html5.links'); ?>" target="_blank">HTML5</a>
+                <a class="" href="<?php echo listRandomizer::getList('./data/lists.css3.links'); ?>" >CSS3</a>
 
             </span>
         </div>
