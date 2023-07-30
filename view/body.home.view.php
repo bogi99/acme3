@@ -10,13 +10,8 @@
             </h1>
 
             <p class="mt-4 sm:text-xl/relaxed">
-                Full technology services, 
-                <ol>
-                    <li>consultation</li>
-                    <li>development</li>
-                    <li>hosting</li>
-                    <li>maintenance</li>
-                </ol>
+                Full technology services, consultation, development,hosting,maintenance.
+                
                 All in one place, one bill, no hassle
             </p>
             <p class="mt-4 sm:text-xl/relaxed">
