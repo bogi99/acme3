@@ -38,6 +38,10 @@
                 viewLoader::load('body.consulting');
                 break;
             
+            case 'webdev':
+                viewLoader::load('body.webdev');
+                break;
+                
             default:
                 viewLoader::load('body.home');
         }
