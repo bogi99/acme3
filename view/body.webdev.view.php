@@ -5,7 +5,7 @@
     <div class="mx-2 bg-[#c7d7ee] rounded-xl w-min float-left ">
 
         <div class="w-64 m-2 break-keep ">Form: Development ping</div>
-        <form action='' method='post'>
+        <form hx-post="./app/ping.php" method='post' action='' >
 
             <div class="mb-2">
                 <label for="name" class="w-32 m-2 min-w-max"> Name:</label>
@@ -21,7 +21,7 @@
                 <label for="email" class="m-2"> e-mail:</label>
                 <input type="email" id="email" name="email" class="ml-2 bg-white border border-red-400 active:bg-orange-300 focus:bg-orange-400">
             </div>
-
+            <input type="hidden" name="pingtype" value="Webdevelopment" >
             <!-- <div class="mb-2">
                 <label for="when" class="m-2"> When:</label>
 
@@ -31,7 +31,7 @@
             <div class="pb-2 mb-2">
 
 
-                <input type="submit" id="submit" name="submit" value="Send" class="px-2 mx-2 bg-white border border-red-400 rounded-sm active:bg-orange-300 focus:bg-orange-400">
+                <input type="submit" id="submit" name="submit" value="Send" class="px-2 mx-2 bg-white border border-red-400 rounded-sm active:bg-orange-300 focus:bg-orange-400 ">
             </div>
 
         </form>
@@ -49,4 +49,5 @@
 <p class="m-2 font-sans text-lg font-normal text-justify first-letter:text-red-800 first-letter:text-3xl">5. Ongoing Support and Maintenance: Ready-made websites often come with limited support, leaving you to deal with technical issues on your own. When you hire a web developer, you gain access to ongoing support and maintenance, ensuring your website remains up-to-date, secure, and functional. This peace of mind allows you to focus on running your small business without worrying about the technical aspects of the website.</p>
 
 <p class="m-2 font-sans text-lg font-normal text-justify first-letter:text-red-800 first-letter:text-3xl">In summary, while ready-made websites may seem like a quick and affordable solution, hiring a web developer for your small business offers numerous advantages, including customization, enhanced functionality, mobile responsiveness, improved SEO, and ongoing support. These benefits can contribute to the long-term success and growth of your business online.</p>
+<p class="mb-10 ">&nbsp;</p>
 </div>

@@ -13,7 +13,7 @@
                 <a class="" href="<?php echo listRandomizer::getList('./data/lists.opensource.links'); ?>" target="_blank" >Open Source</a>
                 <a class="" href="<?php echo listRandomizer::getList('./data/lists.freesoftware.links'); ?>" target="_blank" >Free Software</a>
                 <a class="" href="<?php echo listRandomizer::getList('./data/lists.html5.links'); ?>" target="_blank">HTML5</a>
-                <a class="" href="<?php echo listRandomizer::getList('./data/lists.css3.links'); ?>" >CSS3</a>
+                <a class="" href="<?php echo listRandomizer::getList('./data/lists.css3.links'); ?>" target="_blank">CSS3</a>
 
             </span>
         </div>

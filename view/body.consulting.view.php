@@ -4,7 +4,7 @@
     <div class="mx-2 bg-[#c7d7ee] rounded-xl w-min float-left ">
 
         <div class="w-64 m-2 break-keep ">Form: Consultation ping</div>
-        <form action='' method='post'>
+        <form hx-post="./app/ping.php" action='' method='post'>
 
             <div class="mb-2">
                 <label for="name" class="w-32 m-2 min-w-max"> Name:</label>
@@ -20,7 +20,7 @@
                 <label for="email" class="m-2"> e-mail:</label>
                 <input type="email" id="email" name="email" class="ml-2 bg-white border border-red-400 active:bg-orange-300 focus:bg-orange-400">
             </div>
-
+            <input type="hidden" name="pingtype" value="Consultation" >
             <!-- <div class="mb-2">
                 <label for="when" class="m-2"> When:</label>
 

@@ -2,6 +2,7 @@
     session_start();
     // $_SESSION['POST'] = $_REQUEST['action'];
     include('./app/dd.php');
+    include('./app/readEnv.php');
     include('./app/viewLoader.php');
     include('./app/listRandomizer.php');
    // dd::dd($_SESSION);
@@ -17,6 +18,7 @@
     <meta HTTP-EQUIV="Expires" content="-1"> 
     <title>shop4web</title>
     <link rel="stylesheet" href="style.css" >
+    <script src="./js/htmx.min.js"></script>
 </head>
 <body>
     <?php
@@ -42,13 +44,17 @@
                 viewLoader::load('body.webdev');
                 break;
                 
+            case 'about':
+                viewLoader::load('body.about');
+                break;
+
             default:
                 viewLoader::load('body.home');
         }
 
         
         viewLoader::load('bottom');
-
+        
         
     ?>
 </body>

@@ -1,7 +1,11 @@
+<?php 
+    $logo = readEnv::get('company_name');
+    $slogan = readEnv::get('company_slogan');
+?>
 <div class="sticky top-0 block mt-2 mb-2 ml-2 mr-2 text-lg bg-[#c7d7ee] min-h-fit h-20 shadow-xl shadow-sky-200 border-blue-500 border border-b-2 border-t-0 border-l-0 border-r-0">
-    <div class="float-left mx-1 font-sans text-5xl font-extrabold text-logo" > SHOP4WEB </div>
-    <div class="align-text-bottom" > we will figure this out </div>
-    <div class="float-right" >
+    <div class="float-left mx-1 font-sans text-5xl font-extrabold text-logo" ><?php echo $logo ;?> </div>
+    <div class="align-text-bottom" ><?php echo $slogan ;?> </div>
+    <div class="float-right text-xs sm:text-xs md:text-base lg:text-base " >
         <div class="pt-2 pb-2 mx-1 px-7 bg-slate-400">
             
             <span class="inline-block px-2">
@@ -42,5 +46,5 @@
         </div>
     </div>   
 
-    <?php // echo date('Y'); ?>
+    <?php  ?>
 </div>
