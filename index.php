@@ -16,8 +16,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta HTTP-EQUIV="Pragma" content="no-cache">
     <meta HTTP-EQUIV="Expires" content="-1"> 
-    <title>shop4web</title>
+    <meta name="robots" content="all">
+    <meta name="keywords" content="web design, web development, Infrastructure " >
+    <title>Shop for your web and infrastructure solutions</title>
+    <meta name="description" content="Business , Web and Infrastructure solutions on a budget for startups and small businesses">
     <link rel="stylesheet" href="style.css" >
+    <?php $actual_link = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]/"; ?>
+<link rel=”canonical” href=”<?php echo $actual_link; ?>” >
     <script src="./js/htmx.min.js"></script>
 </head>
 <body>
