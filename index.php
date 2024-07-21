@@ -47,6 +47,9 @@
             case 'about':
                 viewLoader::load('body.about');
                 break;
+            case 'portfolio':
+                viewLoader::load('body.portfolio');
+                break;
 
             default:
                 viewLoader::load('body.home');

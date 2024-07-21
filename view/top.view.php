@@ -36,12 +36,12 @@
                 </form>
             </span>
 
-            <span class="inline-block px-2">
+            <!-- <span class="inline-block px-2">
                 <form action="/" method="get" >
-                    <input type="hidden" name="action" value="gencontact">
-                    <button class="<?php if($_GET['action'] == 'gencontact') echo "text-gray-100 " ?>" type="submit">Contact</button>
+                    <input type="hidden" name="action" value="portfolio">
+                    <button class="<?php if($_GET['action'] == 'portfolio') echo "text-gray-100 " ?>" type="submit">Portfolio</button>
                 </form>
-            </span>
+            </span> -->
             
         </div>
     </div>   
